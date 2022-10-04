@@ -1,0 +1,186 @@
+header{
+    border-bottom: 3px solid #ff355d67;
+}
+
+body{
+    background-color: black;
+    
+}
+
+*{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main{
+    border: 1px solid rgba(255, 255, 255, 0.521);
+    max-width: 700px;
+    margin: auto;
+    padding: 2rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 15px #FFFF66,inset 1px 1px 15px #FFFF66;
+}
+
+.top1{
+    display: flex;
+    gap: 3rem;
+}
+
+.block-btn{
+    border: 1px solid rgba(255, 255, 255, 0.493);
+    position: relative;
+    margin: 0;
+    margin: 1rem;
+    padding: 0rem 1rem;
+    border-radius: 1rem;
+    text-shadow: 1px 5px 8px #FF355E;
+    box-shadow: 1px 1px 10px #FF355E,inset 1px 1px 10px #FF355E;
+    color: #FF355E;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.top1>h2{
+    margin: 1rem;
+    text-shadow: 1px 5px 8px #FF355E;
+    color: #FF355E;
+    font-weight: 500;
+    font-size: 1.5rem;
+    filter: blur(1px);
+}
+
+.top2{
+    display: flex;
+    gap: 3rem;
+}
+
+#date{
+    margin: 1rem;
+    padding: 1rem;
+    text-shadow: 1px 5px 8px #FF355E;
+    color: #FF355E;
+    font-size: 1rem;
+    
+}
+
+#date>input{
+    border: 1px solid #FF355E;
+    text-shadow: 1px 5px 8px #FF355E;
+    box-shadow: 1px 1px 10px #FF355E,inset 1px 1px 10px #FF355E;
+    color: #000000;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.top2>h2{
+    text-shadow: 1px 5px 8px #FF355E;
+    color: #FF355E;
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.top2 sup{
+    text-shadow: 1px 5px 8px #FF355E;
+    color: #FF355E;
+    font-weight: normal;
+}
+
+.top2>h3{
+    text-shadow: 1px 5px 8px #FF355E;
+    color: #FF355E;
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+
+.top3{
+    display: flex;
+}
+
+
+.top3>h2{
+    text-shadow: 1px 5px 8px #FF355E;
+    color: #FF355E;
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#seat{
+    text-shadow: 1px 5px 8px #FF355E;
+    color: #FF355E;
+    font-weight: normal;
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+
+}
+
+#seat>input{
+    border-bottom: 1px solid #FF355E;
+    text-shadow: 1px 5px 8px #FF355E;
+    box-shadow: 1px 1px 10px #FF355E,inset 1px 1px 10px #FF355E;
+    color: #000000;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+#time{
+    text-shadow: 1px 5px 8px #FF355E;
+    color: #FF355E;
+    font-weight: normal;
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#time>input{
+    border-bottom: 1px solid #FF355E;
+    text-shadow: 1px 5px 8px #FF355E;
+    box-shadow: 1px 1px 10px #FF355E,inset 1px 1px 10px #FF355E;
+    color: #000000;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.box>h1,h2{
+    text-shadow: 1px 5px 8px#FFCC33;
+    color: #FFCC33;
+    font-weight: normal;
+}
+
+.box li{
+    text-shadow: 1px 5px 8px#66FF66;
+    color: #66FF66;
+    font-weight: normal;
+    padding: 0.5rem;
+}
+
+.box input{
+    text-shadow: 1px 5px 8px#66FF66;
+    color: #66FF66;
+    font-weight: normal;
+    padding: 0.1rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    color: #000000;
+}
+
+.tf{
+    width: fit-content;
+
+}
+
+.tf span,input{
+     padding: 1rem;
+     color: #50BFE6;
+     text-shadow: 1px 5px 8px #50BFE6;
+     font-size: 1.2rem;
+}
