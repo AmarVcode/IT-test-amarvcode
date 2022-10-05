@@ -195,3 +195,22 @@ main{
     color: #AAF0D1;
 }
 
+#table{
+    display: flex;
+    border: 1px solid #ffffff85;
+    width: fit-content;
+    margin: auto;
+    box-shadow: 1px 1px 10px #50BFE6,inset 1px 1px 10px #50BFE6;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 2rem;
+}
+
+
+.blank2{
+    font-size: 2rem;
+    text-shadow: 1px 5px 8px #50BFE6;
+    color: #50BFE6;
+    font-weight: 500;
+    
+}
