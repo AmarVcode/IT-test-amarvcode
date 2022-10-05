@@ -184,3 +184,14 @@ main{
      text-shadow: 1px 5px 8px #50BFE6;
      font-size: 1.2rem;
 }
+
+.blank{
+    border-bottom: 2px dashed #FF6EFF;
+    width: fit-content;
+    color: #FF00CC;
+}
+
+.i-am-2ol>li{
+    color: #AAF0D1;
+}
+
